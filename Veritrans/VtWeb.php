@@ -30,7 +30,7 @@ class Veritrans_VtWeb {
     $payloads = array(
       'payment_type' => 'vtweb',
       'vtweb' => array(
-        'enabled_payments' => $params['enable_payments'],
+        'enabled_payments' => $params['enabled_payments'],
         'credit_card_3d_secure' => Veritrans_Config::$is3ds
       )
     );
